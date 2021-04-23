@@ -489,6 +489,28 @@ min-height: 600px;
     justify-content: center;
     align-items: center;
   }
+  #contactMainForm_slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* background-color: #e1dcd1; */
+    background-image: url(../img/app-background.jpg);
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #contact_main_slide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+  }
   #textstyle {
     padding-left: 10px;
     height: 50px;
@@ -510,15 +532,15 @@ min-height: 600px;
     font-size: 18px;
     font-weight: 400;
     border: none;
-    background-color: #d37541;
+    background-color: rgb(127 31 138);
     cursor: pointer;
     color: #fff;
   }
   
   #BtnContactUSHome:hover {
-    border: 2px solid #d37541;
+    border: 2px solid rgb(127 31 138);
     background-color: #fff;
-    color: #d37541;
+    color: rgb(127 31 138);
     transform: scale(1.05);
     transition-duration: 0.5s;
     transition-timing-function: linear;
@@ -526,7 +548,7 @@ min-height: 600px;
   
   #BtnContactUSHome:active {
     border: none;
-    background-color: #d37541;
+    background-color: rgb(127 31 138);
     color: #fff;
     transform: scale(1);
     transition-duration: 0.2s;

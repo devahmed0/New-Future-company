@@ -40,24 +40,24 @@ class AboutSection extends React.Component {
                                 <div className='row row-one cont_imgs' >
                                     <div className='col'>
                                         <div className='cont_img one' >
-                                            <img src={require('../../../assets/img/1.jpg')} alt='img' />
+                                            <img src={require('../../../assets/img/1.svg')} alt='img' />
                                         </div>
                                     </div>
                                     <div className='col'>
                                         <div className='cont_img two' >
-                                            <img src={require('../../../assets/img/2.jpg')} alt='img' />
+                                            <img src={require('../../../assets/img/2.svg')} alt='img' />
                                         </div>
                                     </div>
                                 </div>
                                 <div className='row row-one cont_imgs' >
                                     <div className='col'>
                                         <div className='cont_img three' >
-                                            <img src={require('../../../assets/img/3.jpg')} alt='img' />
+                                            <img src={require('../../../assets/img/3.svg')} alt='img' />
                                         </div>
                                     </div>
                                     <div className='col'>
                                         <div className='cont_img four' >
-                                            <img src={require('../../../assets/img/4.jpg')} alt='img' />
+                                            <img src={require('../../../assets/img/4.svg')} alt='img' />
                                         </div>
                                     </div>
                                 </div></div>

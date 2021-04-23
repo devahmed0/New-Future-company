@@ -121,13 +121,13 @@
   height: 100%;
   left: -340px;
   top: -100px;
-  z-index: 0;
+ 
 }
 #slotholder {
   /* position: absolute; */
   top: 0px;
   left: 0px;
-  z-index: 0;
+
   width: 100%;
   height: 100%;
   visibility: inherit;
@@ -141,7 +141,7 @@
   position: absolute;
   /* top: 100px; */
   width: 100%;
-  height:100vh;
+  /* height:100vh; */
   
 }
 .rotated-image {
@@ -150,30 +150,45 @@
 }
 #tpbgimg1 {
   background-repeat: no-repeat;
-  background-image: url("../img/Advanced.svg");
-  background-size: cover;
+  background-image: url("../img/Building-amico.svg");
+  background-size: contain;
   background-position: center center;
   width: 100%;
   height: 100vh;
-  opacity: 1;
+  opacity: 0.6;
   visibility: inherit;
   z-index: 20;
 }
 
 #tpbgimg2 {
   background-repeat: no-repeat;
-  background-image: url("../img/Placeholder-amico.svg");
+  background-image: url("../img/Online\ connection-amico.svg");
   background-size: cover;
   background-position: center center;
   width: 100%;
   height: 100vh;
-  opacity: 1;
+  opacity: 0.1;
   visibility: inherit;
   z-index: 20;
 }
-
+#tpbgimg3 {
+  background-repeat: no-repeat;
+  background-image: url("../img/Online\ Groceries-pana.png");
+  background-size: contain;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.3;
+  visibility: inherit;
+  z-index: 20;
+}
+#main_slide_img{
+  height: 400px;
+  z-index: 10;
+  margin-top: 15%;
+}
 .carousel-indicators {
-  z-index: 0;
+
 }
 
 .tp-parallax-wrap {
@@ -201,7 +216,7 @@
 }
 
 .tp-caption {
-  z-index: 0;
+
   white-space: normal;
   font-size: 20px;
   line-height: 20px;
@@ -245,6 +260,7 @@
   transform-origin: 50% 50% 0px;
   animation: fadeInUpShort 5s;
   font-size: 32px;
+  color: rgb(127 31 138);
 }
 
 .slide {
@@ -264,6 +280,7 @@
   transform-origin: 50% 50% 0px;
   animation: fadeInRightShort 5s;
   font-size: 32px;
+  color: rgb(127 31 138)
 }
 
 .tp-caption a {
@@ -285,21 +302,26 @@ span {
 }
 
 .tp-caption a span {
-  background: url("../img/Placeholder-pana.svg");
+  background: url("../img/hotel.png");
   background-position: center center;
   min-width: 300px;
   animation-name: img;
   min-height: auto;
   background-repeat: no-repeat;
 }
-
+#img_slid_hotel{
+  max-height: 490px;
+}
+#img_slid_doc{
+  max-height: 580px;
+}
 #fotTiltleDiv {
   display: flex;
   padding: 10px;
   /* justify-content: space-between; */
   min-width: 102px;
   align-items: center;
-  color: #d37541;
+  color: rgb(127 31 138);
 }
 #i2 {
   margin-right: 5px;
@@ -324,8 +346,8 @@ span {
   width: 75px;
 }
 #footIcons a {
-  color: #d37541;
-  border: 1px solid #d3754185;
+  color: rgb(127 31 138);
+  border: 1px solid rgb(127 31 138);
   padding: 5px;
   width: 25px;
   height: 25px;
@@ -337,7 +359,7 @@ span {
   color: rgb(136, 136, 136);
 }
 .QuickLInk a:hover {
-  color: #d37541;
+  color: rgb(127 31 138)
 }
 #abou_sh a {
   color: #fff;
@@ -368,7 +390,7 @@ span {
 
 #mainDrawerItem div a:hover {
   left: 30px;
-  color: #d37541;
+  color: rgb(127 31 138);
   position: relative;
   content: "/";
 }
@@ -430,9 +452,10 @@ span {
 .carousel-inner .carousel-item > img,
 .carousel-inner .carousel-item #slotholder #tpbgimg,
 .carousel-inner .carousel-item #slotholder #tpbgimg1,
-.carousel-inner .carousel-item #slotholder #tpbgimg2 {
-  -webkit-animation: zoom 20s;
-  animation: zoom 20s;
+.carousel-inner .carousel-item #slotholder #tpbgimg2,
+.carousel-inner .carousel-item #slotholder #tpbgimg3 {
+  -webkit-animation: zoom 15s;
+  animation: zoom 15s;
 }
 
 .carousel-inner .carousel-item .carousel-caption > h3 {
@@ -552,3 +575,31 @@ span {
   animation-name: fadeInLeftShort;
 }
 
+.rs-carousel-toolbar{
+  z-index: 100;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    color: #fdfdfd00;
+}
+#slide_main1{
+  background-image: url(../img/app-background.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 622px;
+}
+#title_main_slide{
+  position: absolute;
+    color: #7474748c !important;
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}

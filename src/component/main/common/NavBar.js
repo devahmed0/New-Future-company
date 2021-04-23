@@ -104,17 +104,20 @@ export default function PersistentDrawerLeft(props) {
             })}
           >
             <Navbar expand="lg" >
+            <div style={{ width: 90 }} />
+            <Link to='/'>
+                 <img src={require('../../../assets/img/logo2.png')} alt='img' id='imgNavbar' />
+                 </Link>
               <div
                 onClick={handleDrawerOpen}
                 style={{ cursor: 'pointer' }}
               >
+                
              <img src={require('../../../assets/img/menu.png')} id='imgLeftNav' alt='img' />
               </div>
-
-              <Link to='/'>
-                 {/* <img src={require('../../assets/img/orionLogo.png')} alt='img' id='imgNavbar' /> */}
-                 </Link>
-              <div style={{ width: 90 }} />
+             
+            
+            
 
 
 
