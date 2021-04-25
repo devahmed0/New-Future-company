@@ -92,7 +92,7 @@ class Contact extends React.Component {
                   <Row style={{ marginRight: 0, width: '90%', paddingTop: '3%' }} >
                     <Col>
                       <div >
-                        <p style={{ fontSize: '26px', fontWeight: '500', lineHeight: '30px', color: '#d37541 ' }}>For More Inquiry Please Send as Email:</p>
+                        <p style={{ fontSize: '26px', fontWeight: '500', lineHeight: '30px', color: 'rgb(127 31 138)' }}>For More Inquiry Please Send as Email:</p>
 
                       </div>
                     </Col>

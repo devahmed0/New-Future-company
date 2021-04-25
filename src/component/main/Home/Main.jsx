@@ -53,16 +53,16 @@ if (e===4 || e===2  ) {
   y.style.display='flex'
 }
     
- 
- 
+const mediaMatch = window.matchMedia('(max-width: 414)');
+x.style.transformOrigin='50% 184%';
   }
 
   render() {
     return (
 
-      <div>
+      <div >
 
-        <div  >
+        <div   >
           <NavBar />
           <div id='tpbgimg'   >
             <svg  id='svg' viewBox="0 0 1440 181" xmlns='http://www.w3.org/2000/svg' preserveAspectRatio="none" style={{ height: 200, width: "100%" ,zIndex:'-1'}} className='css-1d3w5wq' >
@@ -82,7 +82,7 @@ if (e===4 || e===2  ) {
             this.add(e)
           }} >
             <Carousel.Item   >
-            <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'100%',flexDirection:'row-reverse'}} id='slide_main1' >
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center'}} id='slide_main1' >
             <img src={require('../../../assets/img/laptop3.png')} alt='img' id='main_slide_img' ></img>
             <div className='tp-caption'>
                       <a>

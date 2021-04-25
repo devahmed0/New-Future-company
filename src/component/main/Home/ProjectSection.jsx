@@ -87,7 +87,7 @@ class Projects extends React.Component {
                                     ))}
                                 </div>
                                 <Link to='/Project' id='btn' >
-                                    <div id='getInbtn' style={{ backgroundColor: 'rgb(211 227 239)' }} >
+                                    <div id='getInbtn'  >
                                         <span>  See All Projects  <ArrowRightAltIcon /> </span>
                                     </div>
                                 </Link>

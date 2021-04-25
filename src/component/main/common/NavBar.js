@@ -104,10 +104,11 @@ export default function PersistentDrawerLeft(props) {
             })}
           >
             <Navbar expand="lg" >
-            <div style={{ width: 90 }} />
+           
             <Link to='/'>
                  <img src={require('../../../assets/img/logo2.png')} alt='img' id='imgNavbar' />
                  </Link>
+                 <div style={{ width: 90 }} />
               <div
                 onClick={handleDrawerOpen}
                 style={{ cursor: 'pointer' }}
@@ -146,9 +147,10 @@ export default function PersistentDrawerLeft(props) {
 
               <div id='mainDrawer' >
                 <div id='mainDrawerItem' >
-                 <div> <Link to='/Home'> Web </Link></div>
+                <div> <Link to='/'>Home </Link></div>
+                 <div> <Link to='/Main'> App </Link></div>
                  <div>  <Link to='/About'>About Us </Link> </div>
-                 <div> <Link to='/Project'>Project </Link></div>
+                 {/* <div> <Link to='/Project'>Project </Link></div> */}
                 <div> <Link to='/Contact'>Contact Us </Link></div>
                 </div>
 

@@ -19,10 +19,10 @@ class AboutSection extends React.Component {
                 {ctx => {
                     return (
                         <div id='mainCont_About2'  >
-                             <svg viewBox="0 0 1440 181" preserveAspectRatio="none" style={{ height: 100, width: "100%" }} className='css-1d3w5wq'  >
-                                <path style={{ fill: "rgb(40 40 48)", stroke: "rgb(40 40 48)", strokeWidth: 1, fillRule: 'nonzero' }} d="M0 96l60-10.7C120 75 240 53 360 74.7 480 96 600 160 720 176s240-16 360-42.7c120-26.3 240-48.3 300-58.6l60-10.7V0H0v96z"   >
+                             {/* <svg viewBox="0 0 1440 181" preserveAspectRatio="none" style={{ height: 100, width: "100%" }} className='css-1d3w5wq'  >
+                                <path style={{ fill: "rgb(240 244 248)", stroke: "rgb(240 244 248)", strokeWidth: 1, fillRule: 'nonzero' }} d="M0 96l60-10.7C120 75 240 53 360 74.7 480 96 600 160 720 176s240-16 360-42.7c120-26.3 240-48.3 300-58.6l60-10.7V0H0v96z"   >
                                 </path>
-                            </svg>
+                            </svg> */}
                             <div id='mainCont_About2_left' >
                                 <div id='mainCont_About2_left_title' >Welcome to our wonderful world.</div>
                                 <div style={{ marginBottom: 30 }} >   We sincerely hope that each and every user
@@ -30,7 +30,7 @@ class AboutSection extends React.Component {
                                 activating account and new login widgets, you will definitely have a great experience of using our web page.
 </div>
                                 <Link to='/About' id='btn' >
-                                    <div id='getInbtn' style={{ backgroundColor: 'rgb(211 227 239)' }} >
+                                    <div id='getInbtn'  >
                                         <span>  Find Out More  <ArrowRightAltIcon /> </span>
                                     </div>
                                 </Link>

@@ -13,6 +13,7 @@ import Logo1 from './Logo1';
 import TeamSection from '../common/TeamSection';
 import Footer from '../common/Footer';
 import AboutSection from './AboutSection';
+import Creative from './Creative';
 class Home extends React.Component {
 
     constructor(props) {
@@ -72,7 +73,9 @@ class Home extends React.Component {
 
                                         <Services />
                                         <WhyUs />
-                                        <ProjectSection />
+                                        <Creative />
+                                        <div  id='main_parallex'  />
+                                        {/* <ProjectSection /> */}
                                      <AboutSection />
                                         {/* <div id='teamHomeSection' >
                                             <div id='aboutTitleTeam' style={{ color: '#fff' }} >

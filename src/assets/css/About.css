@@ -35,6 +35,7 @@ header h2 {
 }
 .about-descrption h2 {
   font-weight: bold;
+  color: #7f1f8a;
 }
 .about-descrption p {
   margin: 25px 0;
@@ -107,7 +108,7 @@ header h2 {
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
-  color: #5656d1;
+  color: #7f1f8a;
   padding: 20px;
   /* width: 50%; */
   margin-bottom: 3%;
