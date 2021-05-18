@@ -1,0 +1,199 @@
+#tpbgimg {
+    display:flex;
+    z-index: 1;
+    position: absolute;
+    /* top: 100px; */
+    width: 100%;
+    /* height:100vh; */
+    
+  }
+  #title_main_slide{
+    position: absolute;
+      color: #7474748c !important;
+      font-size: 60px;
+      font-weight: 700;
+      display: flex;
+      text-align: center;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      padding-top: 5%;
+  }
+  #img2{
+    /* position: absolute; */
+    /* width: 40%; */
+    /* bottom: -94px; */
+    z-index: 1;
+  }
+  #main_bg_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* position: absolute; */
+  }
+  #main_row_slide{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+  }
+  #first_col_slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+  }
+  /* #font_slide{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 80px;
+    opacity: 0;
+  } */
+
+  #sectionContactBgImg {
+    background-image: url(./img/lap.jpg);
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contactHeader_bgb{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  #contacthome {
+    /* margin-top: 10%; */
+    padding-top: 5%;
+    background-color: #fffdfd;
+    /* color:#346BAE; */
+    height: 100%;
+    padding-bottom: 3%;
+  }
+  #contactpage {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  #maprow {
+    width: 90%;
+  }
+  #p1ss {
+    color: rgb(127 31 138);
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700;
+  }
+  #gmap_canvas {
+    text-align: right;
+    height: 356px;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+    padding-top: 20px;
+  }
+  #contactrow {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    color: #d37541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contactMainCard{
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 252px;
+    margin: 10px;
+  }
+  .contactMainCard:hover{
+  box-shadow:0 0 9px 0px #a5a0a0;
+  }
+  #sarstylefont {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #10a2b3;
+  }
+  #contactTextAdd {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  #contactMainForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #textstyle {
+    padding-left: 10px;
+    height: 50px;
+  }
+  #area {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #BtnContactUSHome {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(127 31 138);
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  #BtnContactUSHome:hover {
+    border: 2px solid rgb(127 31 138);
+    background-color: #fff;
+    color: rgb(127 31 138);
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+  
+  #BtnContactUSHome:active {
+    border: none;
+    background-color: rgb(127 31 138);
+    color: #fff;
+    transform: scale(1);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
